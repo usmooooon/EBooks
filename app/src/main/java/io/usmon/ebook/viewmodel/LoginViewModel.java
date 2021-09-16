@@ -10,19 +10,15 @@ import com.google.firebase.auth.FirebaseUser;
 
 import io.usmon.ebook.models.AuthRepository;
 
-public class LoginRegisterViewModel extends AndroidViewModel {
+public class LoginViewModel extends AndroidViewModel {
     private AuthRepository authRepository;
     private MutableLiveData<FirebaseUser> userMutableLiveData;
 
-    public LoginRegisterViewModel(@NonNull Application application) {
+    public LoginViewModel(@NonNull Application application) {
         super(application);
 
         authRepository = new AuthRepository(application);
         userMutableLiveData = authRepository.getUserMutableLiveData();
-    }
-
-    public void register(String email, String password) {
-        authRepository.register(email, password);
     }
 
     public void login(String email, String password) {

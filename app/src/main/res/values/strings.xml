@@ -1,5 +1,54 @@
 <resources>
     <string name="app_name">Books</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Welcome Fragment-->
+    <string name="hi_there">Hi there</string>
+    <string name="select_language">Select Language</string>
+    <string name="get_started">Get Started</string>
+
+    <!-- Login Fragment -->
+    <string name="title_login">LOGIN</string>
+    <string name="et_hint_email_id">Email or username</string>
+    <string name="et_hint_password">Password</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="btn_lbl_login">Login</string>
+    <string name="register"><u><b>Register</b></u></string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="content_description">content_description</string>
+
+
+    <!-- Register Fragment -->
+    <string name="hint_full_name">Your full name</string>
+    <string name="et_hint_confirm_password">Confirm password</string>
+    <string name="i_agree_to_the_terms_and_condition">I Agree To The <u>Terms And Condition</u></string>
+    <string name="btn_lbl_register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="et_hint_username">Username</string>
+    <string name="et_hint_email">Email Address</string>
+    <string name="login"><b>Login</b></string>
+    <string name="error_msg_fullname_text">Please enter full name</string>
+    <string name="error_msg_username_text">Please enter username</string>
+    <string name="error_msg_confirm_password_text">Please enter confirm password</string>
+    <string name="password_and_confirm_password_does_not_match">Password and Confirm password does not match</string>
+    <string name="error_msg_agree_terms_and_condition">Please agree terms an condition.</string>
+    <string name="registry_successfully">Thanks for registering!</string>
+    <string name="registry_failed">Registry failed</string>
+    <string name="create_an_account">Create an account</string>
+
+    <!-- Verify Fragment -->
+    <string name="ops_your_email_has_not_been_verified">Ops your email has not been verified</string>
+    <string name="content_description_verify_fragment">We have sent a message to your email addess to confirm, please confirm the email authenticity</string>
+    <string name="check_now">Check Now</string>
+    <string name="resend">Resend code</string>
+
+
+    <!-- Forgot password fragment -->
+    <string name="title_forgot_password">FORGOT PASSWORD?</string>
+    <string name="forgot_password_title_description">Enter your email address we\'ll send you a email to reset your password</string>
+    <string name="btn_lnl_submit">Submit</string>
+    <string name="email_send_success">Email sent successfully to reset your password</string>
+    <string name="reset_password_failed">Reset password failed</string>
+
+
 </resources>

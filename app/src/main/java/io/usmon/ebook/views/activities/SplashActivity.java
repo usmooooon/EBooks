@@ -21,10 +21,10 @@ public class SplashActivity extends AppCompatActivity {
 
     private void userAuthentication() {
         splashViewModel.userAuthentication();
-        splashViewModel.isUserAuthenticatedLiveData.observe(this, user -> {
-            if (user.isAuthenticated) {
+        splashViewModel.isUserAuthenticatedLiveData.observe(this, firebaseUser -> {
+            if (firebaseUser != null) {
                 goToMainActivity();
-            }else {
+            } else {
                 gotToAuthActivity();
             }
             finish();

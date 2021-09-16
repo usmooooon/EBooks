@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colorPrimary" format="color" />
+    <attr name="colorPrimaryDark" format="color" />
+    <attr name="colorCenter" format="color" />
+    <attr name="colorAccent" format="color" />
+    <attr name="colorThemeOrange" format="color" />
+
+    <attr name="black" format="color" />
+    <attr name="white" format="color" />
+    <attr name="colorPrimaryText" format="color" />
+    <attr name="colorSecondaryText" format="color" />
+
+    <attr name="colorSnackbarError" format="color" />
+    <attr name="colorSnackbarSuccess" format="color" />
+
+    <attr name="colorControlNormal" format="color" />
+</resources>

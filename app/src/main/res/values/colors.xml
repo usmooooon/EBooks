@@ -1,12 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Primary colors -->
+    <color name="colorPrimary">#ED2173</color>
+    <color name="colorPrimaryDark">#222934</color>
+    <color name="colorCenter">#F02D5F</color>
+    <color name="colorAccent">#ED2173</color>
+
+    <color name="colorThemeOrange">#FF5722</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="colorPrimary">#FCFBFC</color>
-    <color name="colorPrimaryDark">#F0F0F0</color>
-    <color name="colorTextPrimary">#3A3746</color>
-    <color name="colorSecondaryPrimary">#94939A</color>
-    <color name="colorAccent">#D9AA63</color>
-    <color name="colorButtons">#292637</color>
+
+    <color name="colorPrimaryText">#222934</color>
+    <color name="colorSecondaryText">#989898</color>
+
+    <color name="colorSnackbarError">#F72400</color>
+    <color name="colorSnackbarSuccess">#8BC34A</color>
+
+    <color name="colorControlNormal">#737373</color>
 </resources>

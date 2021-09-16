@@ -14,15 +14,27 @@
         <action
                 android:id="@+id/action_loginFragment_to_verifyFragment"
                 app:destination="@id/verifyFragment" />
+        <action
+                android:id="@+id/action_loginFragment_to_registerFragment"
+                app:destination="@id/registerFragment" />
+        <action
+                android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+                app:destination="@id/forgotPasswordFragment" />
     </fragment>
     <fragment
             android:id="@+id/verifyFragment"
             android:name="io.usmon.ebook.views.fragments.authentication.VerifyFragment"
             android:label="fragment_verify"
-            tools:layout="@layout/fragment_verify">
-        <action
-                android:id="@+id/action_verifyFragment_to_loginFragment"
-                app:destination="@id/loginFragment" />
-    </fragment>
+            tools:layout="@layout/fragment_verify"/>
+    <fragment
+            android:id="@+id/registerFragment"
+            android:name="io.usmon.ebook.views.fragments.authentication.RegisterFragment"
+            android:label="fragment_register"
+            tools:layout="@layout/fragment_register" />
+    <fragment
+            android:id="@+id/forgotPasswordFragment"
+            android:name="io.usmon.ebook.views.fragments.authentication.ForgotPasswordFragment"
+            android:label="fragment_forgot_password"
+            tools:layout="@layout/fragment_forgot_password" />
 
 </navigation>
