@@ -1,4 +1,4 @@
-package io.usmon.ebook;
+package io.usmon.ebook.views.activities;
 
 import android.os.Bundle;
 
@@ -15,9 +15,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-
-
 
     }
 }
